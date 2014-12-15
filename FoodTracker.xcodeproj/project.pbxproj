@@ -14,6 +14,7 @@
 		1652B5D61A3C4BAC004F1532 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1652B5D51A3C4BAC004F1532 /* Images.xcassets */; };
 		1652B5D91A3C4BAC004F1532 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1652B5D71A3C4BAC004F1532 /* LaunchScreen.xib */; };
 		1652B5E51A3C4BAC004F1532 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652B5E41A3C4BAC004F1532 /* FoodTrackerTests.swift */; };
+		1652B5EF1A3C4CF1004F1532 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652B5EE1A3C4CF1004F1532 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1652B5DE1A3C4BAC004F1532 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1652B5E31A3C4BAC004F1532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1652B5E41A3C4BAC004F1532 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
+		1652B5EE1A3C4CF1004F1532 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				1652B5CB1A3C4BAC004F1532 /* AppDelegate.swift */,
 				1652B5D01A3C4BAC004F1532 /* ViewController.swift */,
+				1652B5EE1A3C4CF1004F1532 /* DetailViewController.swift */,
 				1652B5D21A3C4BAC004F1532 /* Main.storyboard */,
 				1652B5D51A3C4BAC004F1532 /* Images.xcassets */,
 				1652B5D71A3C4BAC004F1532 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				1652B5D11A3C4BAC004F1532 /* ViewController.swift in Sources */,
 				1652B5CF1A3C4BAC004F1532 /* FoodTracker.xcdatamodeld in Sources */,
 				1652B5CC1A3C4BAC004F1532 /* AppDelegate.swift in Sources */,
+				1652B5EF1A3C4CF1004F1532 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
